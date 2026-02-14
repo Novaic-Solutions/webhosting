@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Cloud 				$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+.serverPriceTables
+{
+	height: 780px;
+	width: 1200px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.serverPriceTables button
+{
+	color:#0087f2;
+	background: #000;
+	width: 143.75px;
+	border: 0px;
+}
+
+.serverPriceTables tr, td
+{
+	border: 0px;
+	padding: 0px;
+}
+
+.serverPriceTables h3
+{
+	color: #0087f2;
+	margin: 0px auto;
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+.cloud_content
+{
+	height: 2500px;
+	width: 1200px;
+	margin:0px auto;
+	padding-top: 20px;
+}
+
+.cloud_content_wrapper
+{
+	
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+
+.StandardServers
+{
+	position: relative;
+	background: #DDD;
+	height:250px;
+	padding-top: 10px;
+}
+
+.StandardServers:before, .StandardServers:after
+{
+	content: "";
+	position: absolute;
+	background: #DDD;
+	width: 9999px;	
+	top: 0;
+	bottom: 0;
+}
+
+.StandardServers:before
+{
+	right: 100%;
+}
+
+.StandardServers:after
+{
+	left: 100%;
+}
+.StandardServers table, tr
+{
+	width: 1150px;
+	margin:0px auto;
+	border:none;
+    border-collapse:collapse
+	
+}
+
+.StandardServers th
+{
+	width: 143.75px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.StandardServers td
+{
+	width: 143.75px;
+	padding: 0px;
+	border:none;
+}
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+
+.server_overview:before, .server_overview:after
+{
+	content: "";
+	position: absolute;
+	background: #FFF;
+	width: 9999px;	
+	top: 0;
+	bottom: 0;
+}
+
+.server_overview:before
+{
+	right: 100%;
+}
+
+.server_overview:after
+{
+	left: 100%;
+}
+	
+.server_overview
+{
+	height: 70px;
+	width: 1200px;
+	position: relative;
+	background: #FFF;
+	height: 780px;
+	padding-top: 10px;
+}
+
+.server_overview h1
+{
+	background: #000;
+	color: #FFF;
+}
+
+.server_overview_section
+{
+	height: 165px;
+	width: 1200px;
+	padding-top:15px;
+}
+
+.server_overview_left
+{
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+.server_overview_right
+{
+	height: 125px;
+	width: 950px;
+	padding-top: 25px;
+	padding-left: 25px;
+	float:right;
+    vertical-align:middle;
+	text-align: left;
+	
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+.cloud_quote
+{
+	height: 500px;
+	width: 1200px;
+	
+}
+
+.cloud_quote_top
+{
+	height:250px;
+	width: 1200px;
+}
+
+.cloud_quote_top_right
+{
+	height:200px;
+	width: 974px;
+	float: right;
+	padding-left: 25px;
+	text-align: left;
+}
+
+.cloud_quote_top_left
+{
+	height:200px;
+	width: 200px;
+	float: left;
+	border-right: 1px solid;
+}
+
+.cloud_quote_bottom
+{
+	height:300px;
+	width: 1200px;
+	text-align: left;
+}
+
+.cloud_quote_bottom ul
+{
+	padding-left: 10px;
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+.Performance1Servers
+{
+	position: relative;
+	background: #FFF;
+	height:250px;
+	padding-top: 10px;
+}
+
+.Performance1Servers:before, .Performance1Servers:after
+{
+	content: "";
+	position: absolute;
+	background: #FFF;
+	width: 9999px;	
+	top: 0;
+	bottom: 0;
+	overflow-x: hidden !important;
+}
+
+.Performance1Servers:before
+{
+	right: 100%;
+}
+
+.Performance1Servers:after
+{
+	left: 100%;
+}
+.Performance1Servers table, tr
+{
+	width: 1150px;
+	margin:0px auto;
+	border:none;
+    border-collapse:collapse
+	
+}
+
+.Performance1Servers th
+{
+	width: 143.75px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.Performance1Servers td
+{
+	width: 143.75px;
+	padding: 0px;
+	border: none;
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+.Performance2Servers
+{
+	position: relative;
+	background: #DDD;
+	height:250px;
+	padding-top: 10px;
+}
+
+.Performance2Servers:before, .Performance2Servers:after
+{
+	content: "";
+	position: absolute;
+	background: #DDD;
+	width: 9999px;
+	top: 0;
+	bottom: 0;
+	
+}
+
+.Performance2Servers:before
+{
+	right: 100%;
+}
+
+.Performance2Servers:after
+{
+	left: 100%;
+}
+.Performance2Servers table, tr
+{
+	width: 1150px;
+	margin:0px auto;
+	border:none;
+    border-collapse:collapse
+	
+}
+
+.Performance2Servers th
+{
+	width: 143.75px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.Performance2Servers td
+{
+	width: 143.75px;
+	padding: 0px;
+	border:none;
+}
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$	Dedicated			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$		Services		$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/

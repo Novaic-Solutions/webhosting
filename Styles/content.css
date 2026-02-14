@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face 
+{
+    font-family: normFont;
+    src: url(/fonts/exo-2/Exo2.0-Medium.otf);
+}
+
+body {
+	font: 100%/1.4 normFont;
+	color: #000;
+	text-align:center;
+	min-width: 1200px;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px;
+	break-inside: auto;
+	word-break: keep-all;
+	word-wrap: break-word;
+}
+
+.page
+ {
+	background-color: #DDD; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	max-height: 4500px;
+	min-height: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	overflow-x: hidden !important;
+}
+
+.header_wrap
+{	
+	height: 168px;
+	background-color: #000000;
+}
+
+.header
+{	
+	margin:0px auto;
+	height: 130px;
+	width: 1200px;
+}
+
+.header_menubar_wrapper
+{
+	background-color: #FFF;
+	height:38px;
+}
+
+.header_logo
+{
+	height: 130px;
+	width: 600px;
+	float: left;
+}
+
+.header_menus
+{
+	height: 130px;
+	width: 415px;
+	padding-left: 25px;
+	float:right;
+}
+	
+.header_menubar
+{
+	height: 38px;
+	width: 1200px;
+	margin:0px auto;
+}
+
+.content
+{
+	height: 2500px;
+	width: 1200px;
+	margin:0px auto;
+}
+
+.regContent
+{
+	height: 900px;
+	width: 1200px;
+	margin:0px auto;
+}
+
+.regArea
+{
+	height: 900px;
+	width: 700px;
+	margin: 0x auto;
+	float: left;
+}
+
+.regAreaFine
+{
+	height: 900px;
+	width: 500px;
+	margin: 0x auto;
+	float: right;
+}
+
+.get_quote
+{
+	height: 400px;
+	width: 1200px;
+	float: left;
+}
+
+.main_advert
+{
+	height: 300px;
+	float: left;
+	width: 1200px;
+}
+
+.leftSideMainAd
+{
+	height: 300px;
+	float: left;
+	width: 600px;
+}
+
+.rightSideMainAd
+{
+	height: 300px;
+	float: right;
+	width: 600px;
+}
+
+.lowest_prices
+{
+	height: 300px;
+	width: 1200px;
+	float: left;
+}
+
+.bottom_links
+{
+	height: 300px;
+	width: 1200px;
+	float: left;
+}
+
+#loginWindow
+{
+	color: #0087f2;
+	
+}
+
+.footer
+{
+	width: 1200px;
+	margin:0px auto;
+	color: #FFF;
+}
+
+.mcOrderTable table, tr
+{
+	width: 100%;
+}
+
+.mcOrderTable td
+{
+	text-align: center;
+}
+.footer_wrapper
+{
+	width: 100%;
+	background-color:#000;
+	height: 150px;
+}
+
+.mcOrderButton 
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:36px;
+	width:94px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}
+.mcOrderButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+.mcOrderButton:active {
+	position:relative;
+	top:1px;
+	}

@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face 
+{
+    font-family: normFont;
+    src: url(/fonts/exo-2/Exo2.0-Medium.otf);
+}
+.dashContainer
+{
+	width: 100%;
+	height: 2505px;
+	margin: 0px auto;
+}
+.dashTitleBar
+{
+	width: 100%;
+	height: 75px;
+	margin: 0px auto;
+	border-bottom: solid #000 1px;
+}
+.dashSubMenuBar
+{
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+	border-bottom: solid #000 1px;
+}
+/*
+###############################################################################################################################
+*/
+.dashSideBar
+{
+	float: left;
+	width: 295px;
+	height: 2500px;
+	border-right: #000 solid 1px;
+}
+.dashSidebarTitle
+{
+	width: 295px;
+	height: 60px;
+}
+.dashSidebarTables
+{
+	width: 295px;
+	min-height: 500px;
+	max-height:2400px;
+}
+.dashSidebarTables table
+{
+	border-bottom: solid #000 1px;
+}
+/*
+###############################################################################################################################
+*/
+.mainDisplay
+{
+	min-width: 900px;
+	max-width: 1600px;
+	min-height: 1200px;
+	max-height: 2500px;
+}
+.mainDisplayArea
+{
+	min-width: 875px;
+	max-width: 1600px;
+	min-height: 1175px;
+	max-height: 2500px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+/*
+###############################################################################################################################
+*/
+.dashContent
+{
+	min-width: 900px;
+	max-width: 1600px;
+	height: 2500px;
+	float: left;
+}
+/*
+###############################################################################################################################
+*/
+.TopDashMenu
+{
+	height: 45px;
+	width: 1200px;
+	border-top: #DDD;
+	background-color: #666;
+	margin: 0px auto;
+}
+.TopDashMenu tr
+{
+	width: 1200px;
+	height: 40px;
+}
+.TopDashMenu a
+{
+	color: #FFF;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
+
+.TopDashMenu td
+{
+	color: #FFF;
+	text-align: center;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.TopDashMenu td:hover
+{
+	background-color: #FFF;
+	color: #0087F2;
+}
+
+.TopDashMenuWrap
+{
+	height: 45px;
+	margin: 0px auto;
+	background-color: #666;
+}
+/*
+###############################################################################################################################
+*/
+.DashHeaderTopWrap
+{
+	height: 130px;
+	margin:0px auto;
+	background-color: #000;
+}
+
+.DashHeader
+{
+	height: 175px;
+	background-color: #000000;
+	margin: 0px auto;
+}
+
+.headerBoth
+{
+	width: 1200px;
+	height: 175px;
+	margin:0px auto;
+}
