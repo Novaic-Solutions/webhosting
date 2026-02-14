@@ -1,0 +1,62 @@
+<div id="logoutModal">
+	<div id="logoutWindow">
+		<center><h2><font color="#FFFFFF">Logging out. Please wait.</font></h2></center>
+		<div class="logout_result" id="logout_result"></div>
+	</div>
+</div>
+
+<div id="loginModal">
+	<div id="loginWindow">
+
+		<center><h2>Member Login</h2><center>
+
+			<form id="loginForm">
+			
+			<center>
+			<table cellspacing="10px">
+				<tr>	
+					<td><div class="login_result" id="login_result"></div></td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="username"><font color="white" size="4">Username:</font></label>
+					</td>
+					<td>
+						<input class="field" type="text" name="username" id="username" value="" size="23" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="password"><font color="white" size="4">Password:</font></label>
+					</td>
+					<td>
+						<input class="field" type="password" name="password" id="password" size="23" />
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<label><input name="rememberMe" id="rememberMe" type="checkbox" checked="checked" value="1" /> &nbsp;Remember me</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="<?php $_SERVER['DOCUMENT_ROOT']?>/loginUser.php?mode=forgot">Forgot Password</a>
+					</td>
+					<td>
+						<a href="<?php $_SERVER['DOCUMENT_ROOT']?>/loginUser.php?mode=resend">Resend the verification email</a>
+					</td>
+				</tr>
+				<tr><td></td><td></td></tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" name="loginSubmit" class="bt_login" id="loginSubmit" value="Login" />
+					</td>
+				</tr>
+				</form>
+			</table>
+			</center>
+			
+	</div>
+</div>

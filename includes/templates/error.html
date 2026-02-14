@@ -1,0 +1,15 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>ERROR:  YOU ARE ATTEMPTING TO EITHER ACCESS A RESTRICTED AREA OR HAVE EXPERIENCED AN ERROR ON THE SITE.</h1>
+<?php 
+	foreach ($_SESSION['err'] as $key => $value)
+		{
+			print_r("Key ".$key."  Value ".$value." not set.");
+			echo "</br>";
+		}
+?>
+</body>
+</html>

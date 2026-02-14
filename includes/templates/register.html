@@ -1,0 +1,100 @@
+<div class="regContent">
+	<div class="regArea">
+
+		<center><h2>Member Registration</h2><center>
+		<center>
+		<?php
+			if(isset($_SESSION['msg']['reg-err']))
+			{
+				echo '<div class="err">'.$_SESSION['msg']['reg-err'].'</div>';
+				unset($_SESSION['msg']['reg-err']);
+			 // This will output the registration errors, if any
+			}
+		?>
+			<form id="registerForm" action="register.php" method="post">
+			<table cellspacing="5px">
+				<tr>	
+					<td><div class="register_result" id="register_result"></div></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="username"><font color="#000000" size="2">Username: </font></label></br>
+						<input class="field" type="text" name="username" id="username" value="" size="35" /></br></br>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="pwd"><font color="#000000" size="2">Password:</font></label></br>
+						<input class="field" type="password" name="pwd" id="pwd" size="35" /></br></br>
+					</td>
+					<td>
+						<label class="grey" for="verifypwd"><font color="#000000" size="2">Verify Password:</font></label></br>
+						<input class="field" type="password" name="verifypwd" id="verifypwd" value="" size="35" /></br></br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="email"><font color="#000000" size="2">Email Address:</font></label></br>
+						<input class="field" type="text" name="email" id="email" value="" size="35" /></br></br>
+					</td>
+					<td>
+						<label class="grey" for="verifyemail"><font color="#000000" size="2">Verify Email Address:</font></label></br>
+						<input class="field" type="text" name="verifyemail" id="verifyemail" value="" size="35" /></br></br>
+					</td>
+				</tr>
+				<tr><td></br></td><td></br></td></tr>
+				<tr><td></br></td><td></br></td></tr>
+				<tr>
+					<td>
+						<label class="grey" for="FirstName"><font color="#000000" size="2">First Name:</font></label></br>
+						<input class="field" type="text" name="FirstName" id="FirstName" value="" size="35" /></br></br>
+					</td>
+					<td>
+						<label class="grey" for="LastName"><font color="#000000" size="2">Last Name:</font></label></br>
+						<input class="field" type="text" name="LastName" id="LastName" value="" size="35" /></br></br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label class="grey" for="address"><font color="#000000" size="2">Street Address:</font></label></br>
+						<input class="field" type="text" name="address" id="address" value="" size="70" /></br></br>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="aptnum"><font color="#000000" size="2">Apt Number:</font></label></br>
+						<input class="field" type="text" name="aptnum" id="aptnum" value="" size="35" /></br></br>
+					</td>
+					<td>
+						<label class="grey" for="zip"><font color="#000000" size="2">ZipCode:</font></label></br>
+						<input class="field" type="text" name="zip" id="zip" value="" size="5" /></br></br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="grey" for="state"><font color="#000000" size="2">State:</font></label></br>
+						<input class="field" type="text" name="state" id="state" value="" size="35" /></br></br>
+					</td>
+					<td>
+						<label class="grey" for="country"><font color="#000000" size="2">Country:</font></label></br>
+						<input class="field" type="text" name="country" id="country" value="" size="35" /></br></br>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" name="regSubmit" class="bt_login" id="regSubmit" value="Next1" />
+					</td>
+				</tr>
+				</form>
+			</table>
+	</div>
+	<div class="regAreaFine">
+		Disclaimer area
+	</div>
+</div>
+
+<?php require_once ($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php');?>
